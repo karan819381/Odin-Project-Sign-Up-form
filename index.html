@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>OdinProject - SignUp Form</title>
+  </head>
+  <body>
+    <main>
+      <section class="left">
+        <div class="logo-container">
+          <img src="./assests/logo/odin-lined.png" alt="logo" />
+          <h1>ODIN</h1>
+        </div>
+
+        <small class="credit"
+          >Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </small>
+      </section>
+      <section class="right">
+        <div class="text">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign Up
+            <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to</p>
+        </div>
+        <div class="form-container">
+          <h2>Let's do this</h2>
+          <form action="#">
+            <div class="form-row">
+              <div class="form-column">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  placeholder="First Name"
+                  required
+                />
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email" required />
+
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+
+              <div class="form-column">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  placeholder="Last Name"
+                  required
+                />
+
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Phone Number"
+                  required
+                />
+
+                <label for="confirm-password">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirm-password"
+                  placeholder="Confirm Password"
+                  required
+                />
+              </div>
+            </div>
+
+            <hr />
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
